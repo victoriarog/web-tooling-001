@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node app.js",
+    "format": "prettier --write .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/victoriarog/web-tooling-001/issues"
   },
-  "homepage": "https://github.com/victoriarog/web-tooling-001#readme"
+  "homepage": "https://github.com/victoriarog/web-tooling-001#readme",
+  "devDependencies": {
+    "eslint": "^8.33.0",
+    "eslint-config-prettier": "^8.6.0",
+    "prettier": "2.8.3"
+  }
 }
