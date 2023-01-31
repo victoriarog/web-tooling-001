@@ -1,0 +1,23 @@
+{
+  "name": "m6web",
+  "version": "1.0.0",
+  "description": "...",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victoriarog/web-tooling-001.git"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "Victoria R",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/victoriarog/web-tooling-001/issues"
+  },
+  "homepage": "https://github.com/victoriarog/web-tooling-001#readme"
+}
