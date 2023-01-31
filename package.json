@@ -1,32 +1,34 @@
 {
-  "name": "m6web",
-  "version": "1.0.0",
-  "description": "...",
-  "main": "index.js",
-  "scripts": {
-    "start": "node app.js",
-    "format": "prettier --write .",
-    "lint": "eslint .",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepare": "husky install"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/victoriarog/web-tooling-001.git"
-  },
-  "keywords": [
-    "js"
-  ],
-  "author": "Victoria R",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/victoriarog/web-tooling-001/issues"
-  },
-  "homepage": "https://github.com/victoriarog/web-tooling-001#readme",
-  "devDependencies": {
-    "eslint": "^8.33.0",
-    "eslint-config-prettier": "^8.6.0",
-    "husky": "^8.0.3",
-    "prettier": "2.8.3"
-  }
+    "name": "m6web",
+    "version": "1.0.0",
+    "description": "...",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "start": "node app.js",
+        "format": "prettier --write .",
+        "lint": "eslint .",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "prepare": "husky install"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/victoriarog/web-tooling-001.git"
+    },
+    "keywords": [
+        "js"
+    ],
+    "author": "Victoria R",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/victoriarog/web-tooling-001/issues"
+    },
+    "homepage": "https://github.com/victoriarog/web-tooling-001#readme",
+    "devDependencies": {
+        "eslint": "^8.33.0",
+        "eslint-config-prettier": "^8.6.0",
+        "eslint-plugin-prettier": "^4.2.1",
+        "husky": "^8.0.3",
+        "prettier": "2.8.3"
+    }
 }
